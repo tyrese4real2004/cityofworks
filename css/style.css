@@ -2551,6 +2551,68 @@ h1 { font-size: 45px !important; font-family: 'Poppins-SemiBold';}
 .calendar .input-group-addon { padding: 6px 12px;  font-size: 14px; font-weight: 400; line-height: 1; color: #fff; text-align: center; background-color: #3496f2; border: 1px solid #3496f2; border-left:0px !important;border-radius: 0px; border-top-right-radius: 0px;       border-bottom-right-radius: 0px;}
 /*********about-page-css********************/
 
+/*********login-page-css********************/
+
+.wrapper {  display: flex;  align-items: center;  flex-direction: column;   justify-content: center;  width: 100%;  min-height: 100%;  padding: 20px;}
+
+#formContent {  -webkit-border-radius: 0;  border-radius: 0;  background: #fff;  width: 90%;  max-width: 465px;  position: relative;  padding: 0px;  -webkit-box-shadow: 0 2px 30px rgba(0,0,0,0.1);  box-shadow: 0 2px 30px rgba(0,0,0,0.1);  text-align: center;}
+.form-signup{ padding-bottom:20px !important;}
+#formFooter {  background-color: #f6f6f6;  border-top: 1px solid #e6e5e5;  padding: 25px;  text-align: center;  }
+
+/* TABS */h2.inactive {  color: #cccccc;}
+
+h2.active {  color: #0d0d0d;  border-bottom: 2px solid #5fbae9;}
+
+/* FORM TYPOGRAPHY*/
+.form-section{ width:85%; margin:0 auto;}
+#formContent input[type=text] {background-color: #f6f6f6 !important;  border: none !important;  color: #0d0d0d;  padding: 8px 20px;  text-align: left;  text-decoration: none;  display: inline-block;  font-size: 16px;/* margin: 5px;*/  width: 100%;  border: 2px solid #f6f6f6;  -webkit-transition: all 0.5s ease-in-out;  -moz-transition: all 0.5s ease-in-out;  -ms-transition: all 0.5s ease-in-out;  -o-transition: all 0.5s ease-in-out;  transition: all 0.5s ease-in-out;  -webkit-border-radius: 5px 5px 5px 5px;  border-radius: 5px 5px 5px 5px; box-sizing:border-box; height:60px;}
+
+#formContent textarea {background-color: #f6f6f6 !important;  border: none !important;  color: #0d0d0d;  padding: 7px 20px;  text-align: left;  text-decoration: none;  display: inline-block;  font-size: 16px;   width: 100%;  border: 2px solid #f6f6f6;  -webkit-transition: all 0.5s ease-in-out;  -moz-transition: all 0.5s ease-in-out;  -ms-transition: all 0.5s ease-in-out;  -o-transition: all 0.5s ease-in-out;  transition: all 0.5s ease-in-out;  -webkit-border-radius: 5px 5px 5px 5px;  border-radius: 5px 5px 5px 5px; height:150px }
+
+#formContent input[type=text]:focus {  background-color: #fff;  border-bottom: 2px solid #5fbae9;}
+#formContent input[type=text]:placeholder {  color: #000;}
+
+/* ANIMATIONS */
+
+/* Simple CSS3 Fade-in-down Animation */
+.fadeInDown {-webkit-animation-name: fadeInDown;  animation-name: fadeInDown;  -webkit-animation-duration: 1s;  animation-duration: 1s;  -webkit-animation-fill-mode: both;  animation-fill-mode: both;}
+
+@-webkit-keyframes fadeInDown {  0% {    opacity: 0;    -webkit-transform: translate3d(0, -100%, 0);    transform: translate3d(0, -100%, 0);  }  100% {    opacity: 1;   -webkit-transform: none;    transform: none;  }
+}
+@keyframes fadeInDown {
+  0% {    opacity: 0;    -webkit-transform: translate3d(0, -100%, 0);    transform: translate3d(0, -100%, 0);  }
+  100% {    opacity: 1;    -webkit-transform: none;    transform: none;
+  }
+}
+
+/* Simple CSS3 Fade-in Animation */
+@-webkit-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+@-moz-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+@keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+
+
+/* Simple CSS3 Fade-in Animation */
+.underlineHover:after {  display: block;  left: 0;  bottom: -10px;  width: 0;  height: 2px;  background-color: #56baed;  content: "";  transition: width 0.2s;}
+
+.underlineHover:hover {  color: #0d0d0d;}
+
+.underlineHover:hover:after{  width: 100%;}
+
+
+
+#formContent input[type=button], input[type=submit], input[type=reset]  {  font-size:16px; text-align:center; margin:10px auto 20px; display:table; border-radius:30px; background:#3496f2; transition: all 0.5s ease 0s; color:#fff; padding:8px 20px; border:none; box-shadow:0px !important; 
+}
+
+#formContent input[type=button]:hover, input[type=submit]:hover, input[type=reset]:hover  {  background-color: #000; transition: all 0.5s ease 0s;}
+.profile-img-card {width: 80px; height: 80px; margin: 40px auto 20px; display: block; -moz-border-radius: 50%; -webkit-border-radius: 50%; border-radius: 50%;}
+.welcome-msg p{ text-align:left}
+
+#welcomeContent {  -webkit-border-radius: 0;  border-radius: 0;  background: #fff;  width: 90%;  max-width: 600px;  position: relative;  padding: 0px;  -webkit-box-shadow: 0 2px 30px rgba(0,0,0,0.1);  box-shadow: 0 2px 30px rgba(0,0,0,0.1);  text-align: center;}
+#formFooter p{ margin-bottom:0px;}
+#formFooter h4{ margin-bottom:0px;}
+/*********login-page-css********************/
+
+
 
 @media screen and (min-width : 320px)  and (max-width : 372px){  
 .navbar-brand{ width:100px; height:auto}
@@ -2615,6 +2677,10 @@ h1 { font-size: 45px !important; font-family: 'Poppins-SemiBold';}
 .jobs .content { width:100%; margin-top:15px;}
 .pagination { width: auto !important;}
 
+.wrapper{ padding:30px 0 !important}
+#formContent { width:100%;}
+#welcomeContent{ width:100%;}
+
 }
 
 @media screen and (min-width : 373px)  and (max-width : 479px){  
@@ -2677,6 +2743,11 @@ h1 { font-size: 45px !important; font-family: 'Poppins-SemiBold';}
 .right-con { width:100%;}
 .jobs .content { width:100%; margin-top:15px;}
 .pagination { width: auto !important;}
+
+.wrapper{ padding:30px 0 !important}
+#formContent { width:100%;}
+#welcomeContent{ width:100%;}
+
 }
 
 
@@ -2739,6 +2810,7 @@ h1 { font-size: 45px !important; font-family: 'Poppins-SemiBold';}
 .right-con { width:100%;}
 .jobs .content { width:100%; margin-top:15px;}
 .pagination { width: auto !important;}
+#welcomeContent{ width:100%;}
 }
 
 @media screen and (min-width : 551px)  and (max-width : 767px){  
@@ -3021,6 +3093,7 @@ h1 { font-size: 45px !important; font-family: 'Poppins-SemiBold';}
 .seacrh-job .col-md-3 { width:23%;}
 .seacrh-job .col-md-1 { width: 10.3%;}
 }
+
 
 
 
