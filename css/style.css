@@ -2567,6 +2567,8 @@ h2.active {  color: #0d0d0d;  border-bottom: 2px solid #5fbae9;}
 .form-section{ width:85%; margin:0 auto;}
 #formContent input[type=text] {background-color: #f6f6f6 !important;  border: none !important;  color: #0d0d0d;  padding: 8px 20px;  text-align: left;  text-decoration: none;  display: inline-block;  font-size: 16px;/* margin: 5px;*/  width: 100%;  border: 2px solid #f6f6f6;  -webkit-transition: all 0.5s ease-in-out;  -moz-transition: all 0.5s ease-in-out;  -ms-transition: all 0.5s ease-in-out;  -o-transition: all 0.5s ease-in-out;  transition: all 0.5s ease-in-out;  -webkit-border-radius: 5px 5px 5px 5px;  border-radius: 5px 5px 5px 5px; box-sizing:border-box; height:60px;}
 
+#formContent input[type=password] {background-color: #f6f6f6 !important;  border: none !important;  color: #0d0d0d;  padding: 8px 20px;  text-align: left;  text-decoration: none;  display: inline-block;  font-size: 16px;/* margin: 5px;*/  width: 100%;  border: 2px solid #f6f6f6;  -webkit-transition: all 0.5s ease-in-out;  -moz-transition: all 0.5s ease-in-out;  -ms-transition: all 0.5s ease-in-out;  -o-transition: all 0.5s ease-in-out;  transition: all 0.5s ease-in-out;  -webkit-border-radius: 5px 5px 5px 5px;  border-radius: 5px 5px 5px 5px; box-sizing:border-box; height:60px;}
+
 #formContent textarea {background-color: #f6f6f6 !important;  border: none !important;  color: #0d0d0d;  padding: 7px 20px;  text-align: left;  text-decoration: none;  display: inline-block;  font-size: 16px;   width: 100%;  border: 2px solid #f6f6f6;  -webkit-transition: all 0.5s ease-in-out;  -moz-transition: all 0.5s ease-in-out;  -ms-transition: all 0.5s ease-in-out;  -o-transition: all 0.5s ease-in-out;  transition: all 0.5s ease-in-out;  -webkit-border-radius: 5px 5px 5px 5px;  border-radius: 5px 5px 5px 5px; height:150px }
 
 #formContent input[type=text]:focus {  background-color: #fff;  border-bottom: 2px solid #5fbae9;}
@@ -2610,6 +2612,11 @@ h2.active {  color: #0d0d0d;  border-bottom: 2px solid #5fbae9;}
 #welcomeContent {  -webkit-border-radius: 0;  border-radius: 0;  background: #fff;  width: 90%;  max-width: 600px;  position: relative;  padding: 0px;  -webkit-box-shadow: 0 2px 30px rgba(0,0,0,0.1);  box-shadow: 0 2px 30px rgba(0,0,0,0.1);  text-align: center;}
 #formFooter p{ margin-bottom:0px;}
 #formFooter h4{ margin-bottom:0px;}
+
+.social-media{ width:100%; margin-bottom:10px; float:left;}
+.social-left{ width:48.5%; margin-right:10px; float:left; margin-bottom:10px;}
+.form-section .social-left:nth-child(2){ margin-right:0px;}
+label{ color:#454545 !important; font-size:16px !important;}
 /*********login-page-css********************/
 
 
